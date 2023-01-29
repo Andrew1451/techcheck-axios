@@ -17,7 +17,6 @@ function App() {
     <div className="App">
       <button onClick={getQuote}>Get Quote</button>
       {quote ? <p>{quote}</p> : null}
-      <span>Testing</span>
     </div>
   );
 }
